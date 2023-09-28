@@ -1,0 +1,27 @@
+{
+  "name": "task-management-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fredrick-A-prime/Task-Management-System.git"
+  },
+  "author": "Fredrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fredrick-A-prime/Task-Management-System/issues"
+  },
+  "homepage": "https://github.com/Fredrick-A-prime/Task-Management-System#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "knex": "^2.5.1",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3"
+  }
+}
